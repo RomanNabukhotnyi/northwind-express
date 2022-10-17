@@ -1,0 +1,45 @@
+@hostname=https://northwind-express.herokuapp.com/api
+
+###get customers
+
+get {{hostname}}/customers
+
+###get customer by id
+
+get {{hostname}}/customers/ALFKI
+
+###get employees
+
+get {{hostname}}/employees
+
+###get employee by id
+
+get {{hostname}}/employees/1
+
+###get orders
+
+get {{hostname}}/orders
+
+###get order by id
+
+get {{hostname}}/orders/10248
+
+###get products
+
+get {{hostname}}/products
+
+###get product by id
+
+get {{hostname}}/products/1
+
+###get suppliers
+
+get {{hostname}}/suppliers
+
+###get supplier by id
+
+get {{hostname}}/suppliers/1
+
+###search
+
+get {{hostname}}/search?q=chai&table=products
